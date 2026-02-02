@@ -103,18 +103,21 @@ dotnet build --configuration Release
 ```
 
 ## Project Structure (For Developers)
-
-    AMIS_Excel_Plugin/
-    ├── build/                          # Compiled Add-ins
-    │   ├── AMIS_32bit-AddIn-packed.xll    # Main (32-bit)
-    │   └── AMIS_32bit-AddIn64-packed.xll  # Experimental (64-bit)
-    ├── src/                            # Source Code
-    │   ├── AMIS_FINAL.cs
-    │   ├── AMIS_32bit-AddIn.dna
-    │   └── AMIS_32bit.csproj
-    └── examples/                       # Demo Files
-        └── World_Bank_Nominal_GDP_All_Countries_2024.xlsx
-
+```plaintext
+AMIS_Excel_Plugin/
+├── build/                          # Compiled add-in files
+│   ├── AMIS_32bit-AddIn-packed.xll    # Main plugin (32-bit)
+│   └── AMIS_32bit-AddIn64-packed.xll  # Experimental (64-bit)
+├── src/                            # Source code
+│   ├── AMIS_FINAL.cs              # Core algorithm
+│   ├── AMIS_32bit-AddIn.dna       # Excel-DNA config
+│   └── AMIS_32bit.csproj          # .NET project
+├── examples/                       # Demo files
+│   └── World_Bank_Nominal_GDP_All_Countries_2024.xlsx
+├── images/                         # Screenshots
+│   └── AMIS_Excel_Plugin_Demo.png
+└── README.md                       # Documentation
+```
 ## License
 [MIT License](LICENSE)
 
@@ -127,4 +130,5 @@ Kravtsov, G. (2025). *Universal Adaptive Normalization Scale (AMIS): Integration
 
 **Software:**  
 Kravtsov, G. (2026). *AMIS Excel Plugin* (Version 1.0.0) [Computer software]. https://github.com/Famimot/AMIS_Excel_Plugin
+
 
