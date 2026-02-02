@@ -84,6 +84,15 @@ The add-in's effectiveness is demonstrated using nominal GDP data for 187 countr
 | Russian Federation | 2,173,835,806,672 | 60.07 |
 | United States | 29,184,890,000,000 | 100.00 |
 
+## Example Files
+
+- **`World_GDP_2024_Demo_Interactive.xlsx`**  
+  Contains AMIS formulas - requires plugin installation  
+  Shows live calculations with `=AMIS()` functions
+
+- **`World_GDP_2024_Demo_Static.xlsx`**  
+  Contains pre-calculated values - works without plugin  
+  Shows final normalized results as static numbers
 
 ## 📊 Screenshot Example
 
@@ -130,5 +139,6 @@ Kravtsov, G. (2025). *Universal Adaptive Normalization Scale (AMIS): Integration
 
 **Software:**  
 Kravtsov, G. (2026). *AMIS Excel Plugin* (Version 1.0.0) [Computer software]. https://github.com/Famimot/AMIS_Excel_Plugin
+
 
 
