@@ -86,11 +86,11 @@ The add-in's effectiveness is demonstrated using nominal GDP data for 187 countr
 
 ## Example Files
 
-- **`World_GDP_2024_Demo_Interactive.xlsx`**  
+- **`DEMO_World_GDP_2024_With_Formulas.xlsx`**  
   Contains AMIS formulas - requires plugin installation  
   Shows live calculations with `=AMIS()` functions
 
-- **`World_GDP_2024_Demo_Static.xlsx`**  
+- **`DEMO_World_GDP_2024_Static_Values.xlsx`**  
   Contains pre-calculated values - works without plugin  
   Shows final normalized results as static numbers
 
@@ -122,7 +122,8 @@ AMIS_Excel_Plugin/
 │   ├── AMIS_32bit-AddIn.dna       # Excel-DNA config
 │   └── AMIS_32bit.csproj          # .NET project
 ├── examples/                       # Demo files
-│   └── World_Bank_Nominal_GDP_All_Countries_2024.xlsx
+│   ├── DEMO_World_GDP_2024_With_Formulas.xlsx
+│   └── DEMO_World_GDP_2024_Static_Values.xlsx
 ├── images/                         # Screenshots
 │   └── AMIS_Excel_Plugin_Demo.png
 └── README.md                       # Documentation
@@ -139,6 +140,7 @@ Kravtsov, G. (2025). *Universal Adaptive Normalization Scale (AMIS): Integration
 
 **Software:**  
 Kravtsov, G. (2026). *AMIS Excel Plugin* (Version 1.0.0) [Computer software]. https://github.com/Famimot/AMIS_Excel_Plugin
+
 
 
 
